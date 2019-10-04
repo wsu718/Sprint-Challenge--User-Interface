@@ -176,11 +176,11 @@ nav {
 }
 
 .about h1 {
-    margin: 20px 10px;
+    margin: 20px 20px;
 }
 
 .about p {
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 /* Primary content */
@@ -217,11 +217,11 @@ nav {
 /* Secondary */
 
 .secondary h3 {
-    margin: 10px 10px;
+    margin: 10px 20px;
 }
 
 .secondary p {
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 .secondary {
