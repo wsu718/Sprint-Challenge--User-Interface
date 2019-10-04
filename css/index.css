@@ -222,3 +222,46 @@ nav {
     background: dodgerblue;
 }
 
+/* stretch css animation goal */
+a:hover {
+    animation: makebuttonblue 1s infinite;
+   
+}
+
+@keyframes makebuttonblue {
+	0% {
+		background-color: #ffffff;
+	  }
+	33% {
+		background-color: #b7e1fa;
+	  }
+	66% {
+		background-color: #73c8fa;
+	  }
+	100% {
+		background-color: #009efa;
+	  }
+  }
+
+.nav img {
+    animation: 
+        boom
+        1.5s
+        ease-out
+        0s
+        alternate
+        infinite
+        none
+        running;
+}
+
+@keyframes boom {
+    0% {
+    }
+    50% {
+        transform: scale(3);
+      }
+    100% {
+        transform: translate(150px, 0);
+    }
+  }
