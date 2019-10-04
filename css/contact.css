@@ -243,3 +243,41 @@ nav {
         flex-direction: column;
     }
 }
+
+.contact {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 800px;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.submit {
+    padding: 12px 20px;
+    margin: 8px 0;
+    text-align: center;
+    background: lightblue;
+    color: white;
+    font-weight: 600;
+    text-decoration: none
+}
+
+.contact h2 {
+    margin-top: 20px;
+}
+
+.contact h1 {
+    font-size: 50px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
