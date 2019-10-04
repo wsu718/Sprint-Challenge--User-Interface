@@ -144,3 +144,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* MY CODE HERE */
+
+/* Topnav */
+
+header {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+}
+
+nav ul {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 70px 10px 0;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+nav img {
+    vertical-align: middle;
+}
