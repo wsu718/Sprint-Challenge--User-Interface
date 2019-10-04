@@ -227,3 +227,19 @@ nav {
 .secondary {
     margin-bottom: 50px;
 }
+
+@media all and (max-width: 600px) {
+    .container {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    nav {
+        flex-direction: column;
+        width: 7%;
+    }
+
+    .primary {
+        flex-direction: column;
+    }
+}
